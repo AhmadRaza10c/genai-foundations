@@ -1,5 +1,5 @@
-from langchain_ollama import ChatOllama 
-from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
+from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
+from langchain_ollama import ChatOllama
 
 llm = ChatOllama(
     model="gemma3:1b",
